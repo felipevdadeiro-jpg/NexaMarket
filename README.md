@@ -28,3 +28,5 @@ Depois acesse `http://localhost:8000`.
 - Seção de benefícios
 - Fluxo de compra em 3 etapas
 - Layout responsivo
+- Catálogo com filtros por categoria
+- Página de detalhe do produto
