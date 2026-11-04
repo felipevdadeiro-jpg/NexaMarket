@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexaMarket | Marketplace de ativos digitais</title>
+    <meta
+      name="description"
+      content="NexaMarket é um marketplace de ativos digitais com interface moderna para comprar, vender e descobrir produtos digitais de alto valor."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-mark">N</div>
+          <span>NexaMarket</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Navegação principal">
+          <a href="#explorar">Explorar</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn btn-ghost">Entrar</button>
+          <button class="btn btn-primary">Criar conta</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Mercado digital inteligente</span>
+            <h1>Descubra ativos digitais que entregam valor real.</h1>
+            <p>
+              Conecte compradores e vendedores de produtos digitais premium em uma
+              experiência moderna, segura e simples.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary">Ver marketplace</button>
+              <button class="btn btn-secondary">Vender agora</button>
+            </div>
+
+            <ul class="hero-stats" aria-label="Estatísticas do mercado">
+              <li>
+                <strong>12k+</strong>
+                <span>Ativos listados</span>
+              </li>
+              <li>
+                <strong>4.8/5</strong>
+                <span>Avaliação média</span>
+              </li>
+              <li>
+                <strong>24h</strong>
+                <span>Verificação rápida</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Resumo do marketplace">
+            <div class="panel-card card-main">
+              <div class="panel-header">
+                <span class="dot dot-pink"></span>
+                <span class="dot dot-purple"></span>
+                <span class="dot dot-blue"></span>
+              </div>
+
+              <div class="panel-content">
+                <div class="mini-card highlight">
+                  <span class="label">Melhor valor</span>
+                  <strong>Portfolio Pro</strong>
+                  <small>R$ 680</small>
+                </div>
+
+                <div class="progress-block">
+                  <div class="progress-header">
+                    <span>Engajamento</span>
+                    <strong>88%</strong>
+                  </div>
+                  <div class="progress-bar">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="asset-row">
+                  <div>
+                    <span class="muted">Vendido hoje</span>
+                    <strong>328 ativos</strong>
+                  </div>
+                  <div class="badge success">+18.4%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="explorar">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Categorias</span>
+            <h2>Explore ativos digitais por nicho</h2>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card">
+              <div class="icon blue">₿</div>
+              <h3>Cripto</h3>
+              <p>Dados, ferramentas e recursos para o universo blockchain.</p>
+            </article>
+
+            <article class="category-card">
+              <div class="icon purple">◈</div>
+              <h3>Design</h3>
+              <p>Templates, kits premium e materiais de interface para marcas.</p>
+            </article>
+
+            <article class="category-card">
+              <div class="icon orange">⚙</div>
+              <h3>Saas</h3>
+              <p>Ferramentas digitais, automações e produtos de produtividade.</p>
+            </article>
+
+            <article class="category-card">
+              <div class="icon green">✦</div>
+              <h3>Conteúdo</h3>
+              <p>Playlists, cursos, e-books e materiais de conhecimento.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <div class="container">
+          <div class="section-heading row">
+            <div>
+              <span class="eyebrow">Destaques</span>
+              <h2>Produtos em alta</h2>
+            </div>
+            <button class="btn btn-ghost small">Ver todos</button>
+          </div>
+
+          <div class="product-grid" id="productGrid">
+            <article class="product-card" data-category="design">
+              <div class="thumb thumb-one"></div>
+              <div class="product-body">
+                <div class="product-meta">
+                  <span class="tag">Design</span>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <h3>Brand Kit Master</h3>
+                <p>Kit premium para marcas digitais com identidades e materiais prontos.</p>
+                <div class="product-footer">
+                  <strong>R$ 240</strong>
+                  <button class="btn btn-primary small">Comprar</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="saas">
+              <div class="thumb thumb-two"></div>
+              <div class="product-body">
+                <div class="product-meta">
+                  <span class="tag">SaaS</span>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <h3>Growth Automator</h3>
+                <p>Pacote de automações para atrair, converter e nutrir clientes.</p>
+                <div class="product-footer">
+                  <strong>R$ 390</strong>
+                  <button class="btn btn-primary small">Comprar</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="conteudo">
+              <div class="thumb thumb-three"></div>
+              <div class="product-body">
+                <div class="product-meta">
+                  <span class="tag">Conteúdo</span>
+                  <span class="rating">★ 5.0</span>
+                </div>
+                <h3>Biblioteca de AI Prompt</h3>
+                <p>Biblioteca premium de prompts para produtividade e criatividade.</p>
+                <div class="product-footer">
+                  <strong>R$ 180</strong>
+                  <button class="btn btn-primary small">Comprar</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" id="beneficios">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Vantagens</span>
+            <h2>Uma base sólida para vender e comprar ativos digitais</h2>
+          </div>
+
+          <div class="benefit-grid">
+            <div class="benefit-card">
+              <div class="benefit-icon">✓</div>
+              <h3>Verificação simples</h3>
+              <p>Processo rápido para validar produtos, vendedores e perfis digitais.</p>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-icon">⚡</div>
+              <h3>Entregas rápidas</h3>
+              <p>Experiência de compra fluida com acesso imediato aos ativos adquiridos.</p>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-icon">🔒</div>
+              <h3>Confiança</h3>
+              <p>Estrutura pensada para transparência, reputação e segurança da negociação.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" id="como-funciona">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Como funciona</span>
+            <h2>Seu marketplace em 3 passos</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <span class="step-number">01</span>
+              <h3>Crie sua conta</h3>
+              <p>Cadastre-se e monte seu perfil de comprador ou vendedor.</p>
+            </div>
+
+            <div class="step-card">
+              <span class="step-number">02</span>
+              <h3>Explore ativos</h3>
+              <p>Descubra produtos em destaque por categoria e reputação.</p>
+            </div>
+
+            <div class="step-card">
+              <span class="step-number">03</span>
+              <h3>Negocie com segurança</h3>
+              <p>Finalize transações em um ambiente com interface clara e confiável.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="contato">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow">Pronto para crescer</span>
+            <h2>Transforme sua loja digital em uma experiência premium.</h2>
+          </div>
+          <button class="btn btn-primary">Falar com a equipe</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand">
+            <div class="brand-mark">N</div>
+            <span>NexaMarket</span>
+          </div>
+        </div>
+        <p>© 2026 NexaMarket. Marketplace de ativos digitais.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
